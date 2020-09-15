@@ -1,0 +1,113 @@
+
+ .primeiro {
+     border: 2px solid #ccc;
+     width: 50%;
+     margin: auto;
+     padding-left: 10%;
+     font-size: 250%;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .div{
+
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+ .segundo {
+     color: blue;
+     font-size: 30px;
+     position: relative;
+     cursor: pointer;
+ }
+
+ .segundo:before {
+     content: "";
+     background-color: blue;
+     transition: 0.5s;
+     height: 5px;
+     width: 0px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .segundo:hover:before {
+     width: 100%;
+ }
+
+
+
+
+ .terceiro {
+     color: red;
+     font-size: 30px;
+     position: relative;
+     cursor: pointer;
+ }
+
+ .terceiro:before {
+     content: "";
+     background-color: red;
+     transition: 0.5s;
+     height: 5px;
+     width: 0px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .terceiro:hover:before {
+     width: 100%;
+ }
+
+
+
+
+ .quarto {
+     color: green;
+     font-size: 30px;
+     position: relative;
+     cursor: pointer;
+ }
+
+ .quarto:before {
+     content: "";
+     background-color: green;
+     transition: 0.5s;
+     height: 5px;
+     width: 0px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .quarto:hover:before {
+     width: 100%;
+ }
+
+
+
+
+ .quinto {
+     color: yellow;
+     font-size: 30px;
+     position: relative;
+     cursor: pointer;
+ }
+
+ .quinto:before {
+     content: "";
+     background-color: yellow;
+     transition: 0.5s;
+     height: 5px;
+     width: 0px;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .quinto:hover:before {
+     width: 100%;
+ }
